@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to Comic List! 
+  
+  // Wrapper
+  
+  
+  
+  #wrapper
+
+    // USER LIST
+    h2 Comics
+    #userList
+      table
+        thead
+          th Title
+          th Number
+          th Delete?
+        tbody
+    // /USER LIST
+    //ADD USER
+    h2 Add
+    #addUser
+      fieldset 
+        input#inputUserName(type='text', placeholder='Title')
+        input#inputUserEmail(type='text', placeholder='Issue Number')
+        br
+        button#btnAddUser Add User	
+  // /WRAPPER
+  
+  //ADD USER

@@ -1,0 +1,1 @@
+db.userlist.insert({'username' : 'Captain America','email' : '1, 2018','fullname' : 'Bob Smith','age' : 27,'location' : 'San Francisco','gender' : 'Male'})
