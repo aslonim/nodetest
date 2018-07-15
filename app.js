@@ -7,7 +7,7 @@ var logger = require('morgan');
 // Database
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/userlist');
+var db = monk('mongodb://heroku_69rlnh2f:2v2tdkkonrshpmatpmkg2s5h2t@ds137601.mlab.com:37601/heroku_69rlnh2f');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
